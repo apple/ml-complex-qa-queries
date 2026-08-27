@@ -1,6 +1,6 @@
-# From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers
+# [From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers](https://arxiv.org/abs/2608.23812)
 
-This repository provides the synthetic training queries used for model post-training in the above paper on open-domain question-answering.
+This repository provides the synthetic training queries used for model post-training in the [paper](https://arxiv.org/abs/2608.23812) on open-domain question-answering.
 
 ## Disclaimer
 
@@ -28,4 +28,20 @@ The queries were generated using 8 distinct prompting strategies to cover a rang
 | Implicit time-sensitive | Queries where recency matters but is not explicitly stated |
 | Location-dependent | Queries where the answer depends on location, but no location is provided |
 | Multi-intent | Queries combining multiple intents in a single utterance |
+
+## Citation
+
+If you use this data, please cite:
+
+```bibtex
+@misc{saini2026preferencesprinciplesrubricbasedalignment,
+      title={From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers},
+      author={Aman Saini and Priyanshu Kumar and Eric Peng and Kai Yuan and Harsh Girase and Wanming Chen},
+      year={2026},
+      eprint={2608.23812},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2608.23812},
+}
+```
 
